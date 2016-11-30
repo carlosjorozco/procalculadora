@@ -1,0 +1,89 @@
+html{
+	display: flex;
+	justify-content: center;
+}
+
+
+#contenedor{
+	border: 0.1vw solid black;
+	width: 30vw;
+	background-image: url("http://imagenesparadescargar.org/wp-content/uploads/2014/08/Imagenes-fondo-de-pantalla-640x400.jpg");
+	background-repeat: no-repeat;
+	background-size: 30vw 30vw;
+
+	
+}
+
+#pantalla{
+
+	border: 0.1vw solid #417BFA;
+	height: 4vw;
+	font-size: 2vw;
+	text-align: center;
+	font-family: Verdana;
+	color: #E9FCFC;
+	
+}
+#teclado{
+ display: flex;
+ flex-wrap: nowrap;
+	
+}
+#numeros{
+
+	color: black;
+	border: 0.1vw solid violet;
+	width: 10vw;
+	height: 20vw;
+	display: flex;
+	flex-wrap: wrap;
+ 	align-items: center;
+ 	justify-content: space-around;
+
+
+}
+#teclado  > div {
+
+	border: 0.1vw solid #417BFA;
+	width: 20vw;
+	height: 20vw;
+}
+#numeros > div{
+	border-radius: 2vw;
+	font-family: cursive;
+	font-size: 1vw;
+	background-color: #CDD7EE;
+	text-align: center;
+ 	border: 0.1vw solid black;
+ 	width: 5vw;
+ 	height: 2vw;
+ 	
+}
+#operaciones > div{
+	font-family: cursive;
+	font-size: 2vw;
+	background-color: #DFE5F2;
+	border: 0.1vw solid black;
+	width: 5vw; 
+	height: 3vw;
+	border-radius: 2vw;
+}
+#operaciones{
+	color: black;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+ 	align-items: center;
+ 	justify-content: space-around;
+}
+a:link{
+	text-decoration: none;
+}
+ a:hover{
+	color: red;
+}
+
+
+#numeros div>active{
+	background: red;
+}
